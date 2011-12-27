@@ -25,10 +25,6 @@ import javax.servlet.http.HttpServletResponse;
 @javax.servlet.annotation.WebServlet(urlPatterns = { "/hello" })
 public class HelloServlet extends HttpServlet {
 
-    public HelloServlet() {
-        super();
-    }
-
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
