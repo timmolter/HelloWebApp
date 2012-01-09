@@ -4,7 +4,7 @@
     <property file="build.properties"/>
 
     <path id="classpath">
-        <fileset dir="${lib.dir}" includes="servlet-api.jar"/>
+        <fileset dir="${lib.dir}"/>
     </path>
 
     <target name="clean">
